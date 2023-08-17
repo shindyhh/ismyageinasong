@@ -9,5 +9,17 @@ body {
 }
 
 h1, h3 {
+  color: #17a5dd;
   margin: 0;
+}
+
+footer {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
