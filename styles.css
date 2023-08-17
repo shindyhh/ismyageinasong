@@ -1,0 +1,13 @@
+body {
+  background-image: url(img/hourglass2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3 {
+  margin: 0;
+}
