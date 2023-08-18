@@ -8,8 +8,19 @@ body {
   padding: 0;
 }
 
+header {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
 h1, h3 {
-  color: #17a5dd;
+  color: #fff;
   margin: 0;
 }
 
