@@ -24,6 +24,11 @@ h1, h3 {
   margin: 0;
 }
 
+.inline {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
 footer {
   position: absolute;
   left: 30px;
