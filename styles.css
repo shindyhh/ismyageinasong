@@ -25,8 +25,8 @@ h1, h3 {
 }
 
 .inline {
-  padding-top: 30px;
-  padding-left: 20px;
+  padding-top: 25px;
+  padding-left: 55px;
 }
 
 footer {
@@ -38,4 +38,47 @@ footer {
 footer a {
   color: #fff;
   text-decoration: none;
+}
+
+
+
+button {
+  align-items: center;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100%;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 20px;
+  max-width: 30px;
+  max-height: 30px;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+button:active,
+button:focus {
+  outline: none;
+  color: red;
+
+}
+
+button:hover {
+  background-position: -20px -20px;
+}
+
+button:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
 }
