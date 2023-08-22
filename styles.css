@@ -39,3 +39,16 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
+
+textarea {
+  resize: none;
+}
+
+#age-input {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  font-size: 20px;
+}
