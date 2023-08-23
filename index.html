@@ -12,7 +12,11 @@
     <h3>Let's find out!</h3>
   </header>
   <container>
-    <textarea type="number" placeholder="type your age" id="age-input"></textarea>
+    <div>
+      <label class="select-age-label" for="how-many">Select your age </label>
+      <input type="number" id="age" class="wheelable" value="1" name="age" />
+    </div>
+    <button id="btn">OK</button>
   </container>
   <container>
 
@@ -20,6 +24,10 @@
   <footer>
     <a href="about.html">about</a>
   </footer>
-  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="js/increment.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
