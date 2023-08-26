@@ -1,10 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #ededed;
+}
+
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: center;
+  margin: 100px 100px 100px 100px;
 }
 
 .downtown-pic {
   height: 500px;
   width: 350px;
+}
+
+p {
+  margin-left: 50px;
+  font-size: 25px;
 }
