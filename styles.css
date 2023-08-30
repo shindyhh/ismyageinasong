@@ -40,6 +40,12 @@ footer a {
   text-decoration: none;
 }
 
+.age-select {
+  position: fixed;
+  top: 50%;
+  left: 100px;
+}
+
 .select-age-label {
   color: white;
 }
