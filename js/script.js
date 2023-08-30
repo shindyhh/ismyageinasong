@@ -15,25 +15,16 @@ $(function() {
 
 
 $(document).ready(function() {
-  // Add click event handler to the OK button
   $('#btn').click(function() {
-    // Get the value from the age input
     const ageValue = parseInt($('#age').val());
+    let textMessage = '';
 
-    // Set the content based on the selected age
-    let popupContent = '';
     if (ageValue === 20) {
-      popupContent = 'You selected the age 20';
+      textMessage = 'You selected the age 20';
     } else {
-      popupContent = 'No specific content for this age.';
+      textMessage = 'No specific content for this age.';
     }
-    // Display the modal pop-up with the content
-    $('#popup-content').text(popupContent);
-    $('#popup').css('display', 'block');
 
-    // Close the modal when the close button is clicked
-    $('.close').click(function() {
-      $('#popup').css('display', 'none');
-    });
+    $('#text-message').text(textMessage);
   });
 });
