@@ -25,6 +25,8 @@ $(document).ready(function() {
       textMessage = 'No specific content for this age.';
     }
 
+    // Set the text and activate the text message container
     $('#text-message').text(textMessage);
+    $('#text-message-container').addClass('active');
   });
 });
