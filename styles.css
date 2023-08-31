@@ -40,6 +40,10 @@ footer a {
   text-decoration: none;
 }
 
+.select-age-label {
+  font-size: 25px;
+}
+
 .age-select {
   position: fixed;
   top: 50%;
