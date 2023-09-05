@@ -88,3 +88,7 @@ p {
 a {
   text-decoration: none;
 }
+
+.downtown {
+  display: flex;
+}
