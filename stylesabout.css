@@ -2,15 +2,18 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ededed;
+  height: 100vh;
 }
 
 
 .main {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-evenly;
   align-self: center;
-  margin: 100px 100px 100px 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 5%;
 }
 
 .downtown-pic {
@@ -91,4 +94,5 @@ a {
 
 .downtown {
   display: flex;
+  margin-bottom: 50px;
 }
