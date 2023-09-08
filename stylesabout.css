@@ -81,6 +81,7 @@ p {
 
 .button-19:hover:not(:disabled) {
   filter: brightness(1.1);
+  transform: scale(1.1);
   -webkit-filter: brightness(1.1);
 }
 
