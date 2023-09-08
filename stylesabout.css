@@ -56,7 +56,7 @@ p {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100%;
+  width: 220px;
 }
 
 .button-19:after {
@@ -90,6 +90,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .downtown {
