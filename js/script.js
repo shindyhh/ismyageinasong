@@ -20,13 +20,15 @@ $(document).ready(function() {
     let textMessage = '';
 
     if (ageValue === 20) {
-      textMessage = 'You selected the age 20';
+      textMessage = "7 Years by Lukas Graham <br><br>Once, I was twenty years old, my story got told Before the morning Sun, when life was lonely<br>Once, I was twenty years old (Lukas Graham!)";
+    } else if (ageValue === 21) {
+      textMessage = 'You selected the age 21';
     } else {
       textMessage = 'No specific content for this age.';
     }
 
     // Set the text and activate the text message container
-    $('#text-message').text(textMessage);
+    $('#text-message').html(textMessage);
     $('#text-message-container').addClass('active');
   });
 });
